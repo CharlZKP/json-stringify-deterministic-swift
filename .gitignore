@@ -1,0 +1,55 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore
+#
+.DS_Store
+
+# Build generated
+build/
+DerivedData/
+*.swiftpm
+*.xcodeproj
+
+# CocoaPods
+#
+# We recommend against adding CocoaPods to your .gitignore. However if you do,
+# we recommend using `git add -f Pods/` to ensure Pods are included in your VCS.
+#
+Pods/
+
+# Swift Package Manager
+#
+.build/
+Package.pins
+Package.resolved
+
+# Carthage
+#
+# Add this section if you want to avoid checking in source code from Carthage dependencies.
+#
+Carthage/Checkouts
+
+Carthage/Build
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
