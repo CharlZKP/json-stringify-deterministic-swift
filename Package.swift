@@ -3,8 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "JSONStringifyDeterministic",
-    version: "1.0.0",
-    platforms: [.macOS(.v10_15), .iOS(.v13), .tvOS(.v13), .watchOS(.v6), .linux],
+    platforms: [.macOS(.v10_15), .iOS(.v13), .tvOS(.v13), .watchOS(.v6)],
     products: [
         .library(
             name: "JSONStringifyDeterministic",
